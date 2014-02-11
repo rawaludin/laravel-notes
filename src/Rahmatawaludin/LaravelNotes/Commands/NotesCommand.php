@@ -43,12 +43,15 @@ class NotesCommand extends Command {
         $files = $fileReader->allFiles('app');
 
         foreach ($files as $filename) {
-            $lines = file($filename);
+            
             $results = array();
             $maxline = 999;
 
             // skip app/storage folder
             if (substr($filename->getPath(),0, 11) !== "app/storage") {
+                
+                $lines = file($filename);
+                
                 foreach ($lines as $lineNumber => $line) {
                     foreach ($types as $type) {
                         if (strstr($line, " $type ")) {
