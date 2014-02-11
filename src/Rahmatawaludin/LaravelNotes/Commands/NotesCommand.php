@@ -53,7 +53,7 @@ class NotesCommand extends Command {
                     foreach ($types as $type) {
                         if (strstr($line, " $type ")) {
                             // strip note type text and comment tag
-                            $line = preg_replace("/\S.(\s|\s\s+)$type(\s|\s\s+)/", '', $line);
+                            $line = preg_replace("/\S+(\s|\s\s+)$type(\s|\s\s+)/", '', $line);
                             // Strip excess whitespace (space or tab) in beginning string
                             $line = preg_replace('/(\t+|\s\s+)/', '', $line);
 
