@@ -1,0 +1,25 @@
+{
+    "name": "rahmatawaludin/laravel-notes",
+    "description": "Laravel 4 Artisan Notes Management",
+    "authors": [
+        {
+            "name": "Rahmat Awaludin",
+            "email": "rahmat.awaludin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "illuminate/filesystem": "~4",
+        "illuminate/console": "~4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-0": {
+            "Rahmatawaludin\\LaravelNotes\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
