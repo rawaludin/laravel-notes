@@ -15,7 +15,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/commands"
+            "src/Rahmatawaludin/LaravelNotes/Commands"
         ],
         "psr-0": {
             "Rahmatawaludin\\LaravelNotes\\": "src/"
