@@ -1,6 +1,7 @@
 {
     "name": "rahmatawaludin/laravel-notes",
     "description": "Laravel 4 Artisan Notes Management",
+    "license": "MIT",
     "authors": [
         {
             "name": "Rahmat Awaludin",
@@ -13,11 +14,16 @@
         "illuminate/filesystem": "~4",
         "illuminate/console": "~4"
     },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.27",
+        "mockery/mockery": "0.8.0",
+        "squizlabs/php_codesniffer": "1.*",
+        "jakub-onderka/php-parallel-lint": "*",
+        "jakub-onderka/php-console-highlighter": "dev-master",
+        "phpmd/phpmd": "1.5.*"
+    },
     "autoload": {
-        "classmap": [
-            "src/Rahmatawaludin/LaravelNotes/Commands"
-        ],
-        "psr-0": {
+        "psr-4": {
             "Rahmatawaludin\\LaravelNotes\\": "src/"
         }
     },
