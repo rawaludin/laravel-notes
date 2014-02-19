@@ -102,7 +102,8 @@ Version | Feature
 ~~1.3~~ | ~~View notes on specific directory~~
 ~~1.4~~ | ~~Excludes notes on specific directory~~
 ~~2.0~~ | ~~Improved lookup~~
-2.1 | Any idea?
+2.1 | Add `--group-by-file` and `--group-by-type`
+2.2 | Any idea?
 
 ## Contribute
 1. Fork
