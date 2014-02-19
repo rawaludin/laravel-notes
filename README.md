@@ -1,5 +1,10 @@
 Laravel 4 Artisan Notes Management
 ==================================
+[![Travis Badge](https://secure.travis-ci.org/rahmatawaludin/laravel-notes.png)](http://travis-ci.org/rahmatawaludin/laravel-notes)
+[![Latest Stable Version](https://poser.pugx.org/rahmatawaludin/laravel-notes/v/stable.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
+[![Latest Unstable Version](https://poser.pugx.org/rahmatawaludin/laravel-notes/v/unstable.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
+[![Total Downloads](https://poser.pugx.org/rahmatawaludin/laravel-notes/downloads.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
+[![License](https://poser.pugx.org/rahmatawaludin/laravel-notes/license.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
 
 Inpired by Rails Rake notes, Laravel Notes helps you manage your notes when developing an application. It will search comment begin with TODO, FIXME, or OPTIMIZE.
 
@@ -89,12 +94,13 @@ Laravel Notes will check your plataform and run `grep` of you are on a UNIX syst
 ## Roadmap
 Version | Feature
 --- | ---
-~~1.0~ | ~~Basic viewing notes~~
-1.1 | Filter notes by type
-1.2 | Filter notes by custom type
-2.0 | Use git to speedup notes lookup
-2.1 | View notes on specific directory
-2.2 | Any idea?
+~~1.0~~ | ~~Basic viewing notes~~
+~~1.1~~ | ~~Filter notes by type~~
+~~1.2~~ | ~~Filter notes by custom type~~
+~~1.3~~ | ~~View notes on specific directory~~
+~~1.4~~ | ~~Excludes notes on specific directory~~
+~~2.0~~ | ~~Improved lookup~~
+2.1 | Any idea?
 
 ## Contribute
 1. Fork
