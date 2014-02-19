@@ -1,6 +1,8 @@
 Laravel 4 Artisan Notes Management
 ==================================
 [![Travis Badge](https://secure.travis-ci.org/rahmatawaludin/laravel-notes.png)](http://travis-ci.org/rahmatawaludin/laravel-notes)
+[![Coverage Status](https://coveralls.io/repos/rahmatawaludin/laravel-notes/badge.png)](https://coveralls.io/r/rahmatawaludin/laravel-notes)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rahmatawaludin/laravel-notes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![Latest Stable Version](https://poser.pugx.org/rahmatawaludin/laravel-notes/v/stable.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
 [![Latest Unstable Version](https://poser.pugx.org/rahmatawaludin/laravel-notes/v/unstable.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
 [![Total Downloads](https://poser.pugx.org/rahmatawaludin/laravel-notes/downloads.png)](https://packagist.org/packages/rahmatawaludin/laravel-notes)
