@@ -110,3 +110,7 @@ Version | Feature
 2. Work on dev branch
 3. Pull
 4. Repeat.. :)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rahmatawaludin/laravel-notes/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
